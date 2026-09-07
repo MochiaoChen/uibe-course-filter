@@ -12,8 +12,8 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| `uibe-course-filter-v0.3.1.zip` | Chrome 扩展，可同步全校课程和个人主修列表 |
-| `uibe-course-filter-offline-v0.3.1.html` | 双击即可打开的离线表格，使用随附全校课程快照 |
+| `uibe-course-filter-v0.3.2.zip` | Chrome 扩展，可同步全校课程和个人主修列表 |
+| `uibe-course-filter-offline-v0.3.2.html` | 双击即可打开的离线表格，使用随附全校课程快照 |
 | `SHA256SUMS.txt` | 下载文件的 SHA-256 校验值 |
 
 ### Chrome 扩展
@@ -126,3 +126,14 @@ docs/                  发布记录
 遇到问题可在 [Issues](https://github.com/MochiaoChen/uibe-course-filter/issues) 提交复现步骤、扩展版本和错误文字。请勿附上密码、登录 token 或包含这些内容的完整请求记录。
 
 见 [更新日志](CHANGELOG.md)。
+
+## 使用许可：仅限非商业用途
+
+本项目原创代码与文档采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans)（署名—非商业性使用 4.0 国际）许可。
+
+- 可以在非商业目的下使用、复制、分享和修改。
+- 必须保留署名 MochiaoChen、许可链接，并说明是否修改。
+- 商业用途不在此许可授权范围内；如需商业使用，须另行取得权利人许可。
+- 学校课程数据及其他第三方材料不在本项目原创内容的许可范围内，相关权利归原权利人。
+
+这是源码公开的非商用项目，不属于 OSI 定义的开源软件。完整条款见 [LICENSE](LICENSE)。
