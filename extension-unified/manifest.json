@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "贸大课程库",
+  "version": "0.3.1",
+  "description": "全屏课程筛选表格，读取全校课程与当前账号的主修列表。所有数据保留在本机。",
+  "permissions": [
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://bkxk.uibe.edu.cn/*"
+  ],
+  "action": {
+    "default_title": "打开课程筛选"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "bkxk-course-filter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/unified-*.test.js",
+    "build": "python3 scripts/build-unified.py"
+  },
+  "version": "0.3.1"
+}

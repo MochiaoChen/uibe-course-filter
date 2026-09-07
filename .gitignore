@@ -1,0 +1,20 @@
+.DS_Store
+node_modules/
+dist/
+*.zip
+*.html
+!extension-unified/index.html
+/data/
+/research/
+/extension/
+/extension 2/
+/extension-v2/
+/docs/local-research-notes.md
+/scripts/build-preview.py
+/scripts/build-preview-v2.py
+/scripts/export-courses.js
+/scripts/json_to_csv.py
+/scripts/split_courses.py
+/tests/core.test.js
+/tests/reader.test.js
+/tests/v2-*.test.js
